@@ -20,6 +20,12 @@ public class Item {
      * @param type
      * @param expiration
      */
+    public Item(){
+        this.name="";
+        this.price=0.0;
+        this.type="";
+        this.expiration="";
+    }
     public Item(String name, Double price, String type, String expiration){
         this.name = name;
         this.price = price;
